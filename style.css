@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.navbar {
+    background-color: rgb(114, 34, 188);
+    width: 1550px;
+    height: 50px;
+
+}
+
+.container {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a {
+    color: rgb(214, 214, 214);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.container3 {
+    background-color: blueviolet;
+    max-width: 1550px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    background-color: blueviolet;
+    padding-top: 100px;
+
+}
+
+.sari {
+    background-color: rgb(255, 200, 2);
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.getir {
+    color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+
+}
+
+.bimutluluk {
+
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 25px;
+
+}
+
+.rowyazi {
+    color: white;
+    position: absolute;
+    margin-top: 220px;
+    font-size: 35px;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    display: inline-flex;
+    margin-top: 150px;
+    position: relative;
+
+}
+
+.formlabel {
+    color: blueviolet;
+    font-size: 15px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+   
+
+
+}
+
+.input {
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+    border-radius: 5px;
+    position: absolute;
+    justify-content: center;
+    position: absolute;
+
+
+}
+
+button {
+    background-color: rgb(255, 200, 2);
+    width: 300px;
+    height: 60px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.kategoriler{
+    width: 1550px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+.kate{
+    width: 700px;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+    margin-left: 120px;
+    padding-top: 20px;
+    color: rgb(84, 84, 84);
+}
+.header{
+width: 1550px;
+height: 700px;
+}
+.morresim{
+    width: 1200px;
+    height: 300px;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.header .morresim h1{
+    color: white;
+    justify-content: left;
+}
+.header .morresim p{
+    color: white;
+}
