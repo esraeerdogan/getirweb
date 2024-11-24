@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(237, 235, 235);
+    background-color: rgb(245, 245, 245);
 
 
 }
@@ -15,6 +15,8 @@ body {
     width: 100%;
     height: 60px;
     background-color: white;
+    position: fixed;
+
 
 }
 
@@ -90,7 +92,7 @@ body {
     display: flex;
     background-image: url("refresh-hero-home-tr.webp");
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
     background-position: center;
 
 
@@ -151,7 +153,6 @@ body {
     border: none;
     background-color: rgb(228, 57, 88);
     color: white;
-
     margin-left: 20px;
 }
 
@@ -161,11 +162,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-.container3{
+
+.container3 {
     width: 100%;
     height: 200px;
-    background-color:white;
+    background-color: white;
 }
+
 .container3 .row {
     display: flex;
     width: 1550px;
@@ -174,11 +177,11 @@ body {
     margin: auto;
     background-color: white;
 }
-.container3 .row h1{
+
+.container3 .row h1 {
     font-size: 30px;
     margin: 100px;
     margin-top: 75px;
-
 
 }
 
@@ -187,40 +190,187 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
-    background-size: cover,contain;
     background-image: url("home-vendor-tr.webp");
-    background-size:cover ;
+    background-size: cover;
     background-position: center;
 
 }
-.card{
 
+.row2 {
+    display: flex;
+    width: 1550px;
+    height: 150px;
+    justify-content: start;
+    margin: auto;
+}
+
+
+.card {
     justify-content: center;
     width: 650px;
     height: 450px;
     background-color: white;
     border-radius: 15px;
-    margin:100px;
+    margin: 100px;
     padding: 25px;
-    margin-top: 180px;
+    margin-top: 70px;
     gap: 25px;
     box-shadow: inset;
-    
+
 }
-.card h1{
+
+.card h1 {
     font-size: 25px;
     margin-bottom: 25px;
 }
-.card p{
+
+.card p {
     font-size: 17px;
 }
-.btnbasla{
+
+.btnbasla {
     width: 100px;
     height: 40px;
-    background-color: blueviolet;
+    background-color: rgb(228, 57, 88);
     border: none;
     border-radius: 8px;
     color: white;
     font-size: 15px;
     margin-top: 60px;
+}
+
+.bosluk {
+    width: 100%;
+    height: 350px;
+
+}
+
+.container4 {
+    display: block;
+    width: 1300px;
+    height: 2000px;
+    justify-content: center;
+    margin: auto;
+    background-color: beige;
+
+}
+
+.row3 {
+
+    width: 1300px;
+    height: 680px;
+   
+}
+
+.row3 h1 {
+    width: 1350px;
+    height: 70px;
+
+}
+
+.images {
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 330px);
+    grid-auto-rows: 280px;
+   
+   
+}
+.images h1{
+    display: block;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: -50px;
+    color: white;
+  
+}
+
+.img1 img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img2 img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img3 img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img4 img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.img5 img {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.kırmızı{
+    display: inline-flex;
+    width: 1300px;
+    height: 400px;
+    margin-top: 30px;
+    background-color:rgb(240, 46, 82) ;
+    border-radius: 15px;
+    align-items: center;
+}
+.kırmızıdiv{
+    width: 670px;
+    margin-top: -100px;
+}
+.kırmızıdiv h1{
+    font-size: 25px;
+    padding: 30px;
+
+    color: white;
+
+}
+.kirmizidiv1{
+    display: flex;
+    width: 500px;
+}
+.kırmızıdiv .qr{
+    width: 100px;
+    height:100px;
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 5px;
+   margin: 30px;
+   margin-top: -5px;
+}
+.kırmızıdiv p{
+    width: 350px;
+    height: 120px;
+    line-height: 25px;
+    color: white;
+
+}
+.tel-img img{
+    width: 700px;
+    margin-bottom: 70px;
 }
